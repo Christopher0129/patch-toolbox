@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3898**
+**总计条目 / Total entries: 3928**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -69542,5 +69542,485 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9072-1
+
+---
+
+#### 3899. CVE-2026-114939 - OpenJDK: OpenJDK: The acceptor does not properly implement RFC 4120 requirements…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: The acceptor does not properly implement RFC 4120 requirements for handling cross-realm tickets.. Bugzilla: 2574322
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+
+---
+
+#### 3900. CVE-2026-131920 - openstack-cinder: cinder: OpenStack Cinder: Arbitrary file overwrite via path…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openstack-cinder: cinder: OpenStack Cinder: Arbitrary file overwrite via path traversal in LIO iSCSI driver. Bugzilla: 2575673
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575673
+
+---
+
+#### 3901. CVE-2026-132049 - lldpd: lldpd: out-of-bounds read in liblldpctl on a short LLDP-MED location
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] lldpd: lldpd: out-of-bounds read in liblldpctl on a short LLDP-MED location. Bugzilla: 2575741
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575741
+
+---
+
+#### 3902. CVE-2026-130020 - firefox: Privilege escalation due to incorrect boundary conditions in the…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component on Android. Bugzilla: 2575571
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575571
+
+---
+
+#### 3903. CVE-2026-130021 - firefox: Use-after-free in the Audio/Video: Playback component
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: Use-after-free in the Audio/Video: Playback component. Bugzilla: 2575573
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575573
+
+---
+
+#### 3904. CVE-2026-114938 - OpenJDK: OpenJDK: remote code execution via memory corruption on x86-64 systems…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: remote code execution via memory corruption on x86-64 systems with AVX-512 VBMI. Bugzilla: 2574227
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+
+---
+
+#### 3905. CVE-2026-114940 - OpenJDK: OpenJDK: Improve TLS client connections
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Improve TLS client connections. Bugzilla: 2574323
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+
+---
+
+#### 3906. CVE-2026-114941 - OpenJDK: OpenJDK: Improve integer compression
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Improve integer compression. Bugzilla: 2574324
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+
+---
+
+#### 3907. CVE-2026-114942 - OpenJDK: OpenJDK: Enhance vector masks
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance vector masks. Bugzilla: 2574325
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+
+---
+
+#### 3908. CVE-2026-114943 - OpenJDK: OpenJDK: Enhance JFR Events
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance JFR Events. Bugzilla: 2574326
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+
+---
+
+#### 3909. CVE-2026-114944 - OpenJDK: OpenJDK: Enhance JMX Connections
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance JMX Connections. Bugzilla: 2574327
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+
+---
+
+#### 3910. CVE-2026-114945 - OpenJDK: OpenJDK: Enhance StringBuilder checks
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance StringBuilder checks. Bugzilla: 2574329
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+
+---
+
+#### 3911. CVE-2026-114946 - OpenJDK: OpenJDK: Enhance loop handling
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance loop handling. Bugzilla: 2574330
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+
+---
+
+#### 3912. CVE-2026-114947 - OpenJDK: OpenJDK: Enhance TLS connections
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance TLS connections. Bugzilla: 2574333
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574333
+
+---
+
+#### 3913. CVE-2026-130918 - chromium-browser: Use after free in Views
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Use after free in Views. Bugzilla: 2574803
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574803
+
+---
+
+#### 3914. CVE-2026-130972 - chromium-browser: Observable discrepancy in PictureInPicture
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Observable discrepancy in PictureInPicture. Bugzilla: 2574898
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574898
+
+---
+
+#### 3915. CVE-2026-130904 - chromium-browser: Incorrect authorization in SiteSettings
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Incorrect authorization in SiteSettings. Bugzilla: 2574907
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574907
+
+---
+
+#### 3916. CVE-2026-131037 - chromium-browser: Improper authentication request restriction in Chromoting
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Improper authentication request restriction in Chromoting. Bugzilla: 2574793
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574793
+
+---
+
+#### 3917. CVE-2026-131098 - chromium-browser: Out of bounds read in V8
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Out of bounds read in V8. Bugzilla: 2574815
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574815
+
+---
+
+#### 3918. CVE-2026-131001 - chromium-browser: Buffer overflow in Video
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Buffer overflow in Video. Bugzilla: 2574824
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574824
+
+---
+
+#### 3919. [Ubuntu] USN-9037-2: HPLIP regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-9037-1 fixed vulnerabilities in HPLIP. Unfortunately, the upstream fix introduced a regression that caused scanning to fail on certain HP devices. This update fixes the problem. Original advisory details: It was discovered that HPLIP did not properly handle certain data, which could result in an out-of-bounds write. An attacker could possibly use this issue to cause a denial of service, expose
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9037-2
+
+---
+
+#### 3920. [Ubuntu] USN-9153-1: cloud-init vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that cloud-init incorrectly handled certain errors when configuring user passwords on systems with SSSD installed but not configured. An attacker could possibly use this issue to access affected user accounts without a password, resulting in unauthorized access.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9153-1
+
+---
+
+#### 3921. [Ubuntu] USN-9152-1: GStreamer vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer incorrectly handled certain malformed data. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9152-1
+
+---
+
+#### 3922. [Ubuntu] USN-9151-1: needrestart vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Armaan Sandhu discovered that needrestart did not properly handle systemd cgroup paths and process names. A local attacker could possibly use these issues to escalate privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9151-1
+
+---
+
+#### 3923. [Ubuntu] USN-9132-1: apng2gif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Dileep Kumar Jallepalli discovered that apng2gif incorrectly handled loading APNG files, leading to an integer overflow and a heap-based buffer over-read. If a user or automated system were tricked into converting a specially crafted APNG file, an attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2017-6960) Dileep Kumar Jallepalli discovered
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9132-1
+
+---
+
+#### 3924. [Ubuntu] USN-9150-1: SWUpdate vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SWUpdate did not verify that a path was a directory before cleaning it up, leading to a race condition. A local attacker could possibly use this issue to escalate privileges or install untrusted content using a signed update. (CVE-2025-41259) It was discovered that SWUpdate used untrusted certificates embedded in CMS signatures when building the certificate chain. An attacke
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9150-1
+
+---
+
+#### 3925. [Ubuntu] USN-9149-1: MiniMagick vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that MiniMagick passed the file names and URLs given to Image.open directly to Kernel#open. If an application opened an image from an untrusted file name or URL, an attacker could possibly use this issue to execute arbitrary commands.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9149-1
+
+---
+
+#### 3926. [Ubuntu] USN-9148-1: Mechanize vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Mechanize used Kernel#open to open local files in several methods. If an application passed untrusted input as a local file name to one of these methods, an attacker could possibly use this issue to execute arbitrary commands.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9148-1
+
+---
+
+#### 3927. [Ubuntu] USN-9147-1: PyWPS vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PyWPS did not disable the resolution of XML external entities when parsing requests. A remote attacker could possibly use this issue to read arbitrary files on the server.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9147-1
+
+---
+
+#### 3928. [Ubuntu] USN-9146-1: Privoxy vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Joshua Rogers discovered that Privoxy incorrectly handled memory allocation, leading to a memory leak. An attacker could possibly use this issue to cause Privoxy to consume excessive resources, leading to a denial of service. (CVE-2021-44540) Artem Ivanov discovered that Privoxy did not properly encode template names in error pages. A remote attacker could possibly use this issue to perform cross-
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9146-1
 
 ---

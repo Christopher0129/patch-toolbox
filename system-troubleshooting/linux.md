@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10572**
+**总计条目 / Total entries: 10579**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -145408,5 +145408,96 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1254343#reply1
+
+---
+
+#### 10573. Unix cp -u unnecessarily copies unchanged files
+
+**问题描述 / Problem Description**:
+Tags: linux, cp, timestamps, ecryptfs | Score: 9 | Views: 657 | Answers: 1 | Created: 2026-11-07
+
+**解决方案 / Solution**:
+Now that we know that the problem is with ecryptfs ... This is the known bug #1890486 . It happens because Linux kernel truncates the timestamps it receives from user space to the granularity supported by the filesystem. The granularity is stored as the s_time_gran superblock field and defaults to 1 second . ecryptfs left this value at the default which explains why utimensat(2) family of syscalls truncated the timestamps. The bug was fixed in the Linux kernel 7.1 by this commit , but it was too late for the 26.04. commit 7d9ebf33d85317f3f258c627de51701e2bf7642d Author: Frank Hsiao 蕭法宣 <xx@yy> Date: Fri May 17 10:09:55 2024 +0000 ecryptfs: Set s_time_gran to get correct time granularity Set the eCryptfs superblock time granularity, using the lower filesystem's s_time_gran value, to prevent unnecessary inode timestamp truncation to the granularity of a full second. The use of utimensat(2) to set a timestamp with nanosecond precision would trigger this bug. That occurred when using the following utilities to update timestamps of a file: * cp -p: copy a file and preserve its atime and mtime * touch -r: touch a file and use a reference file's timestamps Closes: https://bugs.launchpad.net/ecryptfs/+bug/1890486
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807893/unix-cp-u-unnecessarily-copies-unchanged-files
+
+---
+
+#### 10574. How to atomically replace a file on Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems | Score: 8 | Views: 1405 | Answers: 3 | Created: 2026-11-10
+
+**解决方案 / Solution**:
+Is there a way I can do a kind of compare-and-swap, atomically only replacing the file if it is unchanged? I know the move itself is atomic, but a change might still happen between when I check and when I call move. Nope, that's not possible: access to separate file is not eventually linked. If you need that kind of atomicity, you'll need to handle things within a single file, where writes have specific timing semantics. Or, you need to have one "this is the truth" file, and a process that gates what gets into that. In the end, what you're looking at is the difference between say libreoffice calc editing a file and postresql keeping a database consistent. So, you will have to come up with some better way to manage an inbox. A file system is not an ordered event-gathering system – your use case seems to be more that of "I want to merge multiple data sources", and that's solved by software maintaining a single storage of truth, with the data sources only interacting with it through non-conflicting access (e.g. by opening a connection to the socket process, or by writing their logs to files that they own).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807928/how-to-atomically-replace-a-file-on-linux
+
+---
+
+#### 10575. How to remove a comment from my SSH key?
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh, openssh, key-authentication, ssh-keygen | Score: 6 | Views: 709 | Answers: 1 | Created: 2026-11-13
+
+**解决方案 / Solution**:
+It happens to be rather straightforward: $ ssh-keygen -c -C "" -f ~/.ssh/id_ed25519 If your key is password protected, which it should be, you will need to provide the password for it, and then you are done. Switches explanation: -c = change comment command -C "" = new comment, in this case empty, thus it will remove it altogether from the key -f ~/.ssh/id_ed25519 = path and name of your private key Note under the hood: Both the public key, and the private key contain the comment, as per this Q&A on Security SE , thus you cannot just edit the .pub file with a text editor.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807969/how-to-remove-a-comment-from-my-ssh-key
+
+---
+
+#### 10576. How can I execute a script at the end of a process, while monitoring the process by a partial name
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-script, process | Score: 0 | Views: 109 | Answers: 1 | Created: 2026-11-12
+
+**解决方案 / Solution**:
+Along with pgrep there's also a tool called pidwait , which simply waits for all the matching processes to exit. So you can use pidwait somephrase && script2 The exit status of pidwait will be non-zero if there were no matching processes to wait for, so using && ensure that it only runs script2 if processes with name ¹ matching the somephrase extended regular expression actually existed. If you want to run script2 regardless, change && to ; . ¹ like for pgrep , you can add -f to match on the process arg list (the concatenation with spaces of the arguments the process passed to the last execve() system call it made, as reported by ps -f or ps -o args ) instead of its name (as reported by ps without -f or ps -o comm ). You can also do pidwait -p "$(pidof name | paste -sd, -)" to use pidof 's (same as killall 's) heuristics for matching processes by name.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807963/how-can-i-execute-a-script-at-the-end-of-a-process-while-monitoring-the-process
+
+---
+
+#### 10577. A proxy to make plain HTTP connections to HTTPS servers
+
+**问题描述 / Problem Description**:
+Tags: linux, perl, software-rec, https, http-proxy | Score: 0 | Views: 72 | Answers: 1 | Created: 2026-11-12
+
+**解决方案 / Solution**:
+That sounds more like what a reverse proxy would (which is already suggested in an answer to your previous question ). For example, something like this nginx config: server { listen 7000 default_server; location / { resolver 1.1.1.1; # or some working DNS server proxy_pass https://$host; proxy_set_header Host $http_host; proxy_ssl_server_name on; } } It works kinda-sorta well-enough with some things. Example with curl and GMail, direct connection to plain HTTP results in a redirect to HTTPS, but using nginx as a proxy results in a redirect to the authentication page: % curl -I http://mail.google.com/mail/u/0/ -4 HTTP/1.1 301 Moved Permanently Content-Type: application/binary Cache-Control: no-cache, no-store, max-age=0, must-revalidate Pragma: no-cache Expires: Mon, 01 Jan 1990 00:00:00 GMT Date: Thu, 12 Nov 2026 14:52:22 GMT Location: https://mail.google.com/mail/u/0/ Content-Length: 0 Server: ESF X-XSS-Protection: 0 X-Frame-Options: SAMEORIGIN X-Content-Type-Options: nosniff % http_proxy=127.0.0.1:7000 curl -I http://mail.google.com/mail/u/0/ HTTP/1.1 302 Found Server: nginx/1.30.6 Date: Thu, 12 Nov 2026 14:52:30 GMT Content-Type: application/binary Content-Length: 0 Connection: keep-alive Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site Cache-Control: no-cache, no-store, max-age=0, must-revalidate Pragma: no-cache Expires: Mon, 01 Jan 1990 00:00:00 GMT Location: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 Strict-Transport-Security: max-age=10886400; includeSubDomains Cross-Origin-Resource-Policy: same-site Cross-Origin-Opener-Policy: same-origin-allow-popups Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=* X-XSS-Protection: 0 X-Frame-Options: SAMEORIGIN X-Content-Type-Options: nosniff Alt-Svc: clear If your software doesn't support configuring an HTTP proxy, you could maybe use iptables instead to force traffic from it to nginx instead (aka "transparent" proxying). You might also need to configure rewriting upstream HTTPS redirects using proxy_redirect to instead use HTTP. Configured this way, you could have it as an HTTPS reverse proxy as well, but you'd need to put in some CA certificate shenanigans.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807949/a-proxy-to-make-plain-http-connections-to-https-servers
+
+---
+
+#### 10578. Difference between "flock -n FD" and "flock -n FD cmd"?
+
+**问题描述 / Problem Description**:
+Tags: linux, flock | Score: 0 | Views: 118 | Answers: 2 | Created: 2026-11-11
+
+**解决方案 / Solution**:
+The man page synopsis for the util-linux implementation is: flock [options] file | directory command [ arguments ] flock [options] file | directory -c command flock [options] number Only the last one allows a file descriptor. The other two take a file or directory pathnames. flock -n 20 cmd runs cmd with a lock on a file called 20 . If it did not do that, it would be surprising and wrong ( never a good thing :-). In the first two, flock opens file / directory on a file descriptor of its own, and puts a lock on it (attached to the open file description , see the flock() system call man page for more details). It then executes command in a child process. The fd survives that execution (as it was open without the O_CLOEXEC flag) and will be shared with all the other processes the command spawns if any. That lock on the corresponding file will remain in place as long as the process running flock , the process running command or any of its descendants have a fd open on that open file description . Typically, that's until the command terminates, though it could happen later if the command has spawned children that it's not waiting for. For example, flock file sh -c 'sleep 10 &' Returns immediately but holds the lock for 10 seconds. A flock --fd=20 -n cmd (the fd would need to be passed another way like with that --fd option; not as flock -n 20 cmd which locks the file called 20 ) would mean that: either flock would need to explicitly unlock the file after the command returns (which would break those flock --fd=20 sh -c 'sleep 10 &' usages). or leave the fd locked after exit which could be surprising. And either of those could be done manually with flock <fd> : flock -n 20 && ( cmd; ret="$?" flock -u 20 exit "$ret" ) flock -n 20 && cmd Though you might argue that even flock cmd can be done by hand as well like with: { flock 3 && cmd } 3<> file For the flock -n file cmd case, you could even say that it's better as it allows to unambiguously distinguish between cmd failing and the incapacity to acquire the lock¹ (and also the incapacity to open the file): if ! flock -n file cmd; then echo>&2 'The lock file could not be open or a lock could not be acquired there or cmd failed.' fi vs: if flock -n 3; then if ! cmd; then echo>&2 'cmd failed.' fi else echo>&2 'The lock could not be acquired.' fi 3<> file You'll find that the toybox implementation of flock (as found on Android) as opposed to the one from util-linux , NetBSD's or busybox ' only supports the flock [options] <number> form. ¹ With the util-linux implementation of flock you can specify which exit code to use for failure to acquire a lock with the -E option, but that supposes you know in advance all the exit codes a given command (and the shared libraries it uses) it may use.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807945/difference-between-flock-n-fd-and-flock-n-fd-cmd
+
+---
+
+#### 10579. Resolving broken linux-headers in archived bullseye-backports
+
+**问题描述 / Problem Description**:
+Tags: debian, dkms | Score: 0 | Views: 141 | Answers: 1 | Created: 2026-09-11
+
+**解决方案 / Solution**:
+This problem was reported in Bug#1078237 and Bug#1080200 but without any official solution. And for 2 years this package is still missing. But I found it in snapshot.debian.org I think you could first try to download this package and install it manually. Then conduct some tests to see if it meets the requirements. If it doesn't work, since you said got an upgrade on Wednesday. I think fallback plan is to roll back the kernel to the previous available version, and then use apt-mark hold to prevent automatic updates. Until you complete the work of updating to Trixie.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807353/resolving-broken-linux-headers-in-archived-bullseye-backports
 
 ---

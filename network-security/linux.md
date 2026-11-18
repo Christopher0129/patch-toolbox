@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4204**
+**总计条目 / Total entries: 4263**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -59912,5 +59912,713 @@ It was discovered that the mod_wstunnel module in lighttpd incorrectly handled c
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9112-1
+
+---
+
+#### 4205. [Ubuntu] USN-9151-1: needrestart vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Armaan Sandhu discovered that needrestart did not properly handle systemd cgroup paths and process names. A local attacker could possibly use these issues to escalate privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9151-1
+
+---
+
+#### 4206. [Ubuntu] USN-9150-1: SWUpdate vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SWUpdate did not verify that a path was a directory before cleaning it up, leading to a race condition. A local attacker could possibly use this issue to escalate privileges or install untrusted content using a signed update. (CVE-2025-41259) It was discovered that SWUpdate used untrusted certificates embedded in CMS signatures when building the certificate chain. An attacke
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9150-1
+
+---
+
+#### 4207. [Ubuntu] USN-9149-1: MiniMagick vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that MiniMagick passed the file names and URLs given to Image.open directly to Kernel#open. If an application opened an image from an untrusted file name or URL, an attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9149-1
+
+---
+
+#### 4208. [Ubuntu] USN-9148-1: Mechanize vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Mechanize used Kernel#open to open local files in several methods. If an application passed untrusted input as a local file name to one of these methods, an attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9148-1
+
+---
+
+#### 4209. [Ubuntu] USN-9147-1: PyWPS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PyWPS did not disable the resolution of XML external entities when parsing requests. A remote attacker could possibly use this issue to read arbitrary files on the server.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9147-1
+
+---
+
+#### 4210. [Ubuntu] USN-9146-1: Privoxy vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Joshua Rogers discovered that Privoxy incorrectly handled memory allocation, leading to a memory leak. An attacker could possibly use this issue to cause Privoxy to consume excessive resources, leading to a denial of service. (CVE-2021-44540) Artem Ivanov discovered that Privoxy did not properly encode template names in error pages. A remote attacker could possibly use this issue to perform cross-
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9146-1
+
+---
+
+#### 4211. [Ubuntu] USN-9145-1: OAR vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the oarsh script in OAR did not properly filter OpenSSH options. An authenticated user could possibly use this issue to obtain sensitive information or escalate privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9145-1
+
+---
+
+#### 4212. [Ubuntu] USN-9144-1: ngIRCd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ngIRCd incorrectly handled SERVER commands without a prefix, leading to an out-of-bounds read. A remote attacker could possibly use this issue to cause ngIRCd to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9144-1
+
+---
+
+#### 4213. [Ubuntu] USN-9143-1: Mumble vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Murmur server in Mumble did not rate limit certain client messages. A remote attacker could possibly use this issue to cause Murmur to hang or crash, resulting in a denial of service. This update adds a message rate limit, which can be configured with the messageburst and messagelimit settings.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9143-1
+
+---
+
+#### 4214. [Ubuntu] USN-9142-1: Apache XML Security for Java vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache XML Security for Java incorrectly passed a configuration property when creating specific key elements. An attacker could possibly use this issue to abuse an XPath Transform and extract sensitive information. After this update, file: and http: URIs are only dereferenced when the org.apache.xml.security.allowUnsafeResourceResolving property is set.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9142-1
+
+---
+
+#### 4215. [Ubuntu] USN-9141-1: libksieve vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libksieve stored the password in place of the user name in its authentication details when connecting to a ManageSieve server. An attacker with access to the server logs could possibly use this issue to obtain the cleartext password.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9141-1
+
+---
+
+#### 4216. [Ubuntu] USN-9140-1: FreedomBox vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FreedomBox read and wrote the SSH authorized_keys files of users with root privileges. A local attacker could possibly use this issue to read or modify arbitrary files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9140-1
+
+---
+
+#### 4217. [Ubuntu] USN-9139-1: Apache Fop vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Pierre Ernst discovered that Apache Fop incorrectly handled XML external entities. A remote attacker could possibly use this issue to obtain sensitive files from the file system, or cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9139-1
+
+---
+
+#### 4218. [Ubuntu] USN-9138-1: FontForge vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FontForge incorrectly handled memory when reading SFD files, leading to a use-after-free. If a user or automated system were tricked into opening a specially crafted SFD file, an attacker could possibly use this issue to cause FontForge to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2020-5395) It was discovered that FontForge incorrectly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9138-1
+
+---
+
+#### 4219. [Ubuntu] USN-9137-1: FlightGear vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FlightGear did not properly apply the Nasal script sandbox to file paths. An attacker could possibly use this issue to bypass the sandbox and write to arbitrary files with the privileges of the user.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9137-1
+
+---
+
+#### 4220. [Ubuntu] USN-9136-1: ELOG vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ELOG incorrectly handled certain HTTP parameters, leading to a NULL pointer dereference. A remote attacker could possibly use this issue to cause ELOG to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9136-1
+
+---
+
+#### 4221. [Ubuntu] USN-9135-1: CodeMirror vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the JavaScript mode in CodeMirror used an inefficient regular expression. An attacker could possibly use this issue to cause CodeMirror to consume excessive resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9135-1
+
+---
+
+#### 4222. [Ubuntu] USN-9134-1: Binwalk vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the PFS extractor in Binwalk did not properly sanitize file paths. If a user or automated system were tricked into extracting a specially crafted PFS file system image, an attacker could possibly use this issue to write arbitrary files and execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9134-1
+
+---
+
+#### 4223. [Ubuntu] USN-9133-1: Astropy vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Astropy did not properly validate the savelayout argument when saving transformation graphs. If an application passed untrusted input to this argument, an attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9133-1
+
+---
+
+#### 4224. [Ubuntu] USN-9132-1: apng2gif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Dileep Kumar Jallepalli discovered that apng2gif incorrectly handled loading APNG files, leading to an integer overflow and a heap-based buffer over-read. If a user or automated system were tricked into converting a specially crafted APNG file, an attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2017-6960) Dileep Kumar Jallepalli discovered
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9132-1
+
+---
+
+#### 4225. CVE-2026-114939 - OpenJDK: OpenJDK: The acceptor does not properly implement RFC 4120 requirements…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: The acceptor does not properly implement RFC 4120 requirements for handling cross-realm tickets.. Bugzilla: 2574322
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574322
+
+---
+
+#### 4226. CVE-2026-131920 - openstack-cinder: cinder: OpenStack Cinder: Arbitrary file overwrite via path…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openstack-cinder: cinder: OpenStack Cinder: Arbitrary file overwrite via path traversal in LIO iSCSI driver. Bugzilla: 2575673
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575673
+
+---
+
+#### 4227. CVE-2026-132049 - lldpd: lldpd: out-of-bounds read in liblldpctl on a short LLDP-MED location
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] lldpd: lldpd: out-of-bounds read in liblldpctl on a short LLDP-MED location. Bugzilla: 2575741
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575741
+
+---
+
+#### 4228. CVE-2026-130020 - firefox: Privilege escalation due to incorrect boundary conditions in the…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component on Android. Bugzilla: 2575571
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575571
+
+---
+
+#### 4229. CVE-2026-130021 - firefox: Use-after-free in the Audio/Video: Playback component
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: Use-after-free in the Audio/Video: Playback component. Bugzilla: 2575573
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2575573
+
+---
+
+#### 4230. CVE-2026-114938 - OpenJDK: OpenJDK: remote code execution via memory corruption on x86-64 systems…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: remote code execution via memory corruption on x86-64 systems with AVX-512 VBMI. Bugzilla: 2574227
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574227
+
+---
+
+#### 4231. CVE-2026-114940 - OpenJDK: OpenJDK: Improve TLS client connections
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Improve TLS client connections. Bugzilla: 2574323
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574323
+
+---
+
+#### 4232. CVE-2026-114941 - OpenJDK: OpenJDK: Improve integer compression
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Improve integer compression. Bugzilla: 2574324
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574324
+
+---
+
+#### 4233. CVE-2026-114942 - OpenJDK: OpenJDK: Enhance vector masks
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance vector masks. Bugzilla: 2574325
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574325
+
+---
+
+#### 4234. CVE-2026-114943 - OpenJDK: OpenJDK: Enhance JFR Events
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance JFR Events. Bugzilla: 2574326
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574326
+
+---
+
+#### 4235. CVE-2026-114944 - OpenJDK: OpenJDK: Enhance JMX Connections
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance JMX Connections. Bugzilla: 2574327
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574327
+
+---
+
+#### 4236. CVE-2026-114945 - OpenJDK: OpenJDK: Enhance StringBuilder checks
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance StringBuilder checks. Bugzilla: 2574329
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574329
+
+---
+
+#### 4237. CVE-2026-114946 - OpenJDK: OpenJDK: Enhance loop handling
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance loop handling. Bugzilla: 2574330
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574330
+
+---
+
+#### 4238. CVE-2026-114947 - OpenJDK: OpenJDK: Enhance TLS connections
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] OpenJDK: OpenJDK: Enhance TLS connections. Bugzilla: 2574333
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574333
+
+---
+
+#### 4239. CVE-2026-130918 - chromium-browser: Use after free in Views
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Use after free in Views. Bugzilla: 2574803
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574803
+
+---
+
+#### 4240. CVE-2026-130972 - chromium-browser: Observable discrepancy in PictureInPicture
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Observable discrepancy in PictureInPicture. Bugzilla: 2574898
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574898
+
+---
+
+#### 4241. CVE-2026-130904 - chromium-browser: Incorrect authorization in SiteSettings
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Incorrect authorization in SiteSettings. Bugzilla: 2574907
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574907
+
+---
+
+#### 4242. CVE-2026-131037 - chromium-browser: Improper authentication request restriction in Chromoting
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Improper authentication request restriction in Chromoting. Bugzilla: 2574793
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574793
+
+---
+
+#### 4243. CVE-2026-131098 - chromium-browser: Out of bounds read in V8
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Out of bounds read in V8. Bugzilla: 2574815
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574815
+
+---
+
+#### 4244. CVE-2026-131001 - chromium-browser: Buffer overflow in Video
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Buffer overflow in Video. Bugzilla: 2574824
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2574824
+
+---
+
+#### 4245. [Ubuntu] USN-9037-2: HPLIP regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-9037-1 fixed vulnerabilities in HPLIP. Unfortunately, the upstream fix introduced a regression that caused scanning to fail on certain HP devices. This update fixes the problem. Original advisory details: It was discovered that HPLIP did not properly handle certain data, which could result in an out-of-bounds write. An attacker could possibly use this issue to cause a denial of service, expose
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9037-2
+
+---
+
+#### 4246. [Ubuntu] USN-9153-1: cloud-init vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cloud-init incorrectly handled certain errors when configuring user passwords on systems with SSSD installed but not configured. An attacker could possibly use this issue to access affected user accounts without a password, resulting in unauthorized access.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9153-1
+
+---
+
+#### 4247. [Ubuntu] USN-9152-1: GStreamer vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer incorrectly handled certain malformed data. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9152-1
+
+---
+
+#### 4248. [Ubuntu] USN-9151-1: needrestart vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Armaan Sandhu discovered that needrestart did not properly handle systemd cgroup paths and process names. A local attacker could possibly use these issues to escalate privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9151-1
+
+---
+
+#### 4249. [Ubuntu] USN-9132-1: apng2gif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Dileep Kumar Jallepalli discovered that apng2gif incorrectly handled loading APNG files, leading to an integer overflow and a heap-based buffer over-read. If a user or automated system were tricked into converting a specially crafted APNG file, an attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2017-6960) Dileep Kumar Jallepalli discovered
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9132-1
+
+---
+
+#### 4250. [Ubuntu] USN-9150-1: SWUpdate vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SWUpdate did not verify that a path was a directory before cleaning it up, leading to a race condition. A local attacker could possibly use this issue to escalate privileges or install untrusted content using a signed update. (CVE-2025-41259) It was discovered that SWUpdate used untrusted certificates embedded in CMS signatures when building the certificate chain. An attacke
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9150-1
+
+---
+
+#### 4251. [Ubuntu] USN-9149-1: MiniMagick vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that MiniMagick passed the file names and URLs given to Image.open directly to Kernel#open. If an application opened an image from an untrusted file name or URL, an attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9149-1
+
+---
+
+#### 4252. [Ubuntu] USN-9148-1: Mechanize vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Mechanize used Kernel#open to open local files in several methods. If an application passed untrusted input as a local file name to one of these methods, an attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9148-1
+
+---
+
+#### 4253. [Ubuntu] USN-9147-1: PyWPS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PyWPS did not disable the resolution of XML external entities when parsing requests. A remote attacker could possibly use this issue to read arbitrary files on the server.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9147-1
+
+---
+
+#### 4254. [Gentoo] GLSA 202611-10: Apache HTTPD: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Apache HTTPD, the worst of which could result in remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-10
+
+---
+
+#### 4255. [Gentoo] GLSA 202611-09: rsync: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in rsync, the worst of which could result in privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-09
+
+---
+
+#### 4256. [Gentoo] GLSA 202611-08: Tor: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Tor, the worst of which could allow remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-08
+
+---
+
+#### 4257. [Gentoo] GLSA 202611-07: curl: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in curl, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-07
+
+---
+
+#### 4258. [Gentoo] GLSA 202611-06: PCRE2: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in PCRE2, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-06
+
+---
+
+#### 4259. [Gentoo] GLSA 202611-05: ImageMagick: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in ImageMagick, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-05
+
+---
+
+#### 4260. [Gentoo] GLSA 202611-04: libheif: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in libheif, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-04
+
+---
+
+#### 4261. [Gentoo] GLSA 202611-03: libde265: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in libde265, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-03
+
+---
+
+#### 4262. [Gentoo] GLSA 202611-02: git: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in git, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-02
+
+---
+
+#### 4263. [Gentoo] GLSA 202611-01: Brotli: Remote code execution
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in Brotli, allowing remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202611-01
 
 ---

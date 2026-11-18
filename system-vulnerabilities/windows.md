@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1408**
+**总计条目 / Total entries: 1428**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -22649,5 +22649,325 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-119260
+
+---
+
+#### 1409. [Microsoft] CVE-2026-110339 - x509 NULL pointer dereference on empty PKCS#7 payload
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-110339
+
+---
+
+#### 1410. [Microsoft] CVE-2026-97903 - exit: hold a reference to thread_pid across proc_flush_pid
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97903
+
+---
+
+#### 1411. [Microsoft] CVE-2026-97902 - fs: don't return -EINVAL for successful nested thaw
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97902
+
+---
+
+#### 1412. [Microsoft] CVE-2026-97873 - Legacy PBES1 and PKCS#12 PBE iteration count honoured unbounded in the raw JCA provider
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97873
+
+---
+
+#### 1413. [Microsoft] CVE-2026-97621 - drm/rockchip: analogix_dp: fix unchecked bound endpoint name length
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97621
+
+---
+
+#### 1414. [Microsoft] CVE-2026-97620 - drm/xe: Flush LSC untyped L1 dataport cache after rcs/ccs batches
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97620
+
+---
+
+#### 1415. [Microsoft] CVE-2026-97618 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97618
+
+---
+
+#### 1416. [Microsoft] CVE-2026-97617 - ring-buffer: Check resize_disabled before publishing the new subbuf order
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97617
+
+---
+
+#### 1417. [Microsoft] CVE-2026-97614 - net: dsa: tag_brcm: legacy FCS: request needed tailroom
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97614
+
+---
+
+#### 1418. [Microsoft] CVE-2026-96869 - Information disclosure in the Networking component
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96869
+
+---
+
+#### 1419. [Microsoft] CVE-2026-96808 - In Flatpak before 1.18.1, the revokefs writer, used by the flatpak-system-helper to receive repository data from unprivileged callers, validated file paths by rejecting literal .. components but did not prevent symlink traversal. A malicious local user in an active local session could obtain two revokefs sessions via the system helper, create a symlink in one session pointing into the other session's directory, and retain a file descriptor through that symlink. This allowed the attacker to modify files belonging to a different revokefs session after they had been validated and imported by the system helper. In particular, an attacker could use this to tamper with ostree commit objects in the system repository after they passed signature verification, enabling root-controlled file writes to attacker-chosen paths and local root privilege escalation.
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96808
+
+---
+
+#### 1420. [Microsoft] CVE-2026-96807 - In Flatpak before 1.18.1, a malicious sandboxed app can replace ~/.var/app/$appid/.ld.so with a symlink, causing regenerate_ld_cache to write files at an arbitrary location. The filenames and content are not attacker controlled, making this hard to exploit.
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96807
+
+---
+
+#### 1421. [Microsoft] CVE-2026-80859 - fuse: fix missing barrier when checking io-uring readiness
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-80859
+
+---
+
+#### 1422. [Microsoft] CVE-2026-96643 - Pillow: PNG eXIf chunk makes EXIF parsing run in quadratic time
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96643
+
+---
+
+#### 1423. [Microsoft] CVE-2026-97956 - net: net_failover: Fix the deadlock in net_failover_slave_name_change()
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97956
+
+---
+
+#### 1424. [Microsoft] CVE-2026-80858 - fuse: publish io-uring queues with release semantics
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-80858
+
+---
+
+#### 1425. [Microsoft] CVE-2026-96642 - Pillow: TarIO negative size field causes infinite CPU-spin loop
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96642
+
+---
+
+#### 1426. [Microsoft] CVE-2026-97955 - net: mana: restore the XDP program pointer when pre-allocation fails
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-97955
+
+---
+
+#### 1427. [Microsoft] CVE-2026-96641 - Pillow: Reachable undefined behavior in native integer operations, potentially leading to denial of service or logic integrity compromise
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96641
+
+---
+
+#### 1428. [Microsoft] CVE-2026-96638 - Pillow: BMP RLE decoder memory-amplification DoS via unbounded delta escape / absolute mode
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-96638
 
 ---

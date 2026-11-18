@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 11262**
+**总计条目 / Total entries: 11287**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -152331,5 +152331,330 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1254407#reply22
+
+---
+
+#### 11263. Can Proton VPN be made to coexist with OpenVPN on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, vpn, openvpn | Score: 7 | Views: 683 | Answers: 1 | Created: 2026-11-11
+
+**解决方案 / Solution**:
+Since I did not have logs or screenshot of the issue, as Nigel rightly stated, and had removed Proton VPN from Windows, I reinstalled it to get that information. After reinstalling Proton VPN v. 5.1.9_x64 on Windows 10 and entering my user name and password, it worked perfectly , even though OpenVPN was already installed, but with it's two services stopped. In an effort to replicate the issue, I started OpenVPN and connected to one server, and then restarted Proton VPN and tried to connect to another server. Even that misuse of two VPN's appeared to work, though when I tried to connect to Speedtest.net or Speedof.me to check throughput, those connection actually failed. However, Proton VPN offered no complaint. So, the positive result is that the issue appears to be resolved by first completely uninstalling Proton VPN, then reinstalling it. Either OpenVPN or Proton VPN now can be used on Windows 10. However, the negative consequence is was that I could not reproduce the issue to improve the question. It took multiple attempts to restart Proton VPN v. 5.1.9 to display the error message shown in the edited question, and that disappeared quickly, since the reinstalled Proton VPN did connect, albeit after that message and a few seconds delay. So, to resolve the issue: remove Proton VPN and reinstall it after installing OpenVPN . That probably explains why there was no issue on Ubuntu: that OS had OpenVPN support preinstalled, so that Proton was added afterwards by default.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941495/can-proton-vpn-be-made-to-coexist-with-openvpn-on-windows
+
+---
+
+#### 11264. Is it possible to disable the broadband in HDMI?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, hdmi, internet-connection | Score: 6 | Views: 1398 | Answers: 1 | Created: 2026-11-15
+
+**解决方案 / Solution**:
+So a quick search suggests there's a HDMI with ethernet/HEC 'standard' meant to reduce the number of wires in a home theatre setup - best reference I could find is a monoprice page. It isn't really common in PCs as far as I know Assuming the monitor is only connected to a GPU, most PCs would not support that, and passing through an ethernet connection via bridging or other means needs some set up. Practically your TV sneakily talking to its corporate overlords via the PC is unlikely. If your GPU did support the feature, you ought to be able to disable that 'adaptor' on the system.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941578/is-it-possible-to-disable-the-broadband-in-hdmi
+
+---
+
+#### 11265. How to move a nested folders contents up one level without flattening using PowerShell?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, powershell, windows-11, script | Score: 6 | Views: 432 | Answers: 2 | Created: 2026-11-12
+
+**解决方案 / Solution**:
+You can use: $Root = 'I:\root' foreach ($parent in @(Get-ChildItem -LiteralPath $Root -Directory)) { foreach ($pkg in @(Get-ChildItem -LiteralPath $parent.FullName -Directory -Filter 'Packaging*')) { foreach ($item in @(Get-ChildItem -LiteralPath $pkg.FullName)) { $dest = Join-Path $parent.FullName $item.Name if (Test-Path -LiteralPath $dest) { Write-Warning "Skipped, already exists: $dest" } else { Move-Item -LiteralPath $item.FullName -Destination $dest } } # Optional: delete the Packaging folder once it's empty # if (-not (Get-ChildItem -LiteralPath $pkg.FullName -Force)) { Remove-Item -LiteralPath $pkg.FullName } } }
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941527/how-to-move-a-nested-folders-contents-up-one-level-without-flattening-using-powe
+
+---
+
+#### 11266. Is Windows assigning a drive letter to RUFUS_BOOT normal, or could something be wrong?
+
+**问题描述 / Problem Description**:
+Tags: partitioning, windows-11, usb-flash-drive, drive-letter, rufus | Score: 6 | Views: 823 | Answers: 1 | Created: 2026-11-10
+
+**解决方案 / Solution**:
+A general issue with creating a USB stick from an Windows 10+ installer is that has one file ( Install.wim , the actual archive containing the fresh copy of Windows) that is too large for the limits of the FAT32 filesystem. UEFI firmware, however, officially only supports FAT32. There's no "boot sector" as such, instead the firmware directly finds and boots a specific file ( \EFI\Boot\BootX64.efi ). So there are several approaches for dealing with that, and I believe Rufus has used different methods depending on its version, depending on the host OS version (what tools are available), depending on the guest OS version and even the specific revision of the .iso (as some official images have an Install.wim that is just barely small enough): You can have the USB stick as one large FAT32 partition, but split the Install.wim into smaller chunks using Windows' dism.exe . You can have the USB stick as one large NTFS partition, and rely on the fact that many modern PC desktop firmwares understand NTFS in addition to FAT32. (It is not forbidden by the UEFI specification, and some manufacturers do it. But not all – it is not guaranteed by specification, either.) You can have the USB stick as two partitions, using a generally similar structure to what your actual OS disk always has (i.e. like the "EFI System Partition"): a small FAT32 partition that loads the (installer) OS, and a large NTFS partition that contains the main installation archives. There are two variants of this as well: One variant involves having everything in the FAT32 partition and only the Install.wim in the NTFS partition. This is the Microsoft-documented method, as the installer program has actually been written to look for Install.wim in other partitions and not only its own. Another variant – frequently used by Rufus – involves having only a minimal FAT32 partition that loads UEFI:NTFS , an UEFI driver that adds NTFS support, so that the firmware will then continue to boot the whole installer from the NTFS partition. Doesn't work quite as well with Secure Boot, though. And sometimes (at least in the past, and IIRC specifically with the "public" Home+Pro variants of the .iso) the Install.wim is small enough to fit directly in the FAT32 filesystem. So in short, yes, it is mostly normal that Rufus creates two partitions when building a Windows USB stick for UEFI. You could say that the small FAT32 one acts like the "EFI System Partition" on your actual OS disk. As to whether Windows assigns a drive letter to the FAT32 partition – I believe that's also normal; even though that's a "system" partition, it is not the system partition of the current system, and Windows does the same if you connect a HDD/SSD from another installation: all partitions that aren't specifically 'hidden' get drive letters. (I think only the recovery partitions don't.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941487/is-windows-assigning-a-drive-letter-to-rufus-boot-normal-or-could-something-be
+
+---
+
+#### 11267. How can I 100% cleanly uninstall Adobe Creative Cloud on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, uninstall, adobe-creative-cloud, windows-11-26-h2 | Score: 4 | Views: 791 | Answers: 1 | Created: 2026-11-12
+
+**解决方案 / Solution**:
+Running the Uninstall Creative Cloud desktop app did remove all the services that Creative Cloud desktop app had installed, but it left behind 1,599 files totaling 711 MB and 78 registry keys, which need to be removed for a clean uninstall: == Taskbar: Creative Cloud tray icon entry == REMOVED HKCU:\Control Panel\NotifyIconSettings\17577083777887879020 [1 key(s), 4 value(s)] == Files in shared Adobe folders (all users) == REMOVED C:\Program Files\Common Files\Adobe [955 files, 374.7 MB] REMOVED C:\Program Files (x86)\Common Files\Adobe [1,113 files, 60.3 MB] REMOVED C:\ProgramData\Adobe [6 files, 1.3 MB] REMOVED C:\Users\Public\Adobe [1 files, 0.0 MB] REMOVED C:\Users\Public\Documents\AdobeGCInfo [1 files, 0.0 MB] REMOVED C:\Users\Public\NGL [1 files, 0.0 MB] REMOVED C:\WINDOWS\Temp\CreativeCloud [1 files, 0.0 MB] REMOVED C:\Program Files\Adobe [empty folder] REMOVED C:\Program Files (x86)\Adobe [empty folder] == Files in user profile == REMOVED C:\Users\<user>\AppData\LocalLow\Adobe [8 files, 53.8 MB] REMOVED C:\Users\<user>\AppData\LocalLow\com.adobe.crashreporter [41 files, 0.1 MB] REMOVED C:\Users\<user>\AppData\LocalLow\Temp\Adobe [2 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Local\Adobe [328 files, 72.0 MB] REMOVED C:\Users\<user>\AppData\Local\CEF [1 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\com.adobe.dunamis [22 files, 110.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\CCX Welcome [32 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\CoreSync [1 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\ExtensibilityLibrary [1 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\OOBE [1 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\SLData [1 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\UPI [3 files, 0.2 MB] REMOVED C:\Users\<user>\AppData\Roaming\Adobe\User Owned Fonts [151 files, 806.9 MB] REMOVED C:\Users\<user>\AppData\Local\Microsoft\Windows\ActionCenterCache\adobe-creativecloud_9_0.ico [84.2 KB] REMOVED C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\creative_cloud_uninstallerwin.lnk [0.8 KB] == Files in temporary files == REMOVED C:\Users\<user>\AppData\Local\Temp\CreativeCloud [14 files, 32.8 MB] REMOVED C:\Users\<user>\AppData\Local\Temp\Adobe [9 files, 2.4 MB] REMOVED C:\Users\<user>\AppData\Local\Temp\NGL [15 files, 0.2 MB] REMOVED C:\Users\<user>\AppData\Local\Temp\AdobeVulcan [1 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Local\Temp\{BC1D08FB-7D6D-4F46-AA39-06575DF7C8C8} [1 files, 2.4 MB] REMOVED C:\Users\<user>\AppData\Local\Temp\{346BA28C-534A-41D3-AED5-46CB643D8342} [2 files, 0.0 MB] REMOVED C:\Users\<user>\AppData\Local\Temp\26d5f4bb-907b-43c6-a737-885de1fbf026 [6.4 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\adobegc.log [3.9 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\AdobeIPCBrokerCustomHook.log [0.1 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\APROInstaller.log [16.5 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\crash_repo_pref.txt [0.1 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\oobelib.log [15.9 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\PDApp.log [28.6 KB] REMOVED C:\Users\<user>\AppData\Local\Temp\CoreSync.dll_TEMP [738 KB] REMOVED PendingFileRenameOperations entry for == Registry in my user account (HKCU) == REMOVED HKCU:\Software\Adobe [13 key(s), 41 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Adobe.CreativeCloud [1 key(s), 2 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\PushNotifications\Backup\Adobe.CreativeCloud [1 key(s), 3 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\Start\TileProperties\W~Adobe.CreativeCloud [1 key(s), 1 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\Start\TileProperties\W~C: [5 key(s), 1 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\AdobeNotificationClient_enpm4xejd91yc [1 key(s), 0 value(s)] REMOVED HKCU:\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PolicyCache\AdobeNotificationClient_enpm4xejd91yc [1 key(s), 0 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\passkeysEnumeration\adobe.com [1 key(s), 2 value(s)] REMOVED HKCU:\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\passkeysEnumeration [1 key(s), 0 value(s)] REMOVED HKCU:\Software\Classes\CLSID\{2F81B25E-7507-4844-BFF2-77D2CC24CED4} [2 key(s), 1 value(s)] REMOVED HKCU:\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION -> value 'Creative_Cloud_Set-Up_7474.exe' REMOVED HKCU:\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION -> value 'Adobe Desktop Service.exe' REMOVED HKCU:\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\accnc [1 key(s), 0 value(s)] REMOVED HKCU:\Software\Chromium [2 key(s), 0 value(s)] REMOVED HKCU:\Software\Classes\MIME [3 key(s), 0 value(s)] REMOVED HKCU:\Software\Microsoft\RestartManager [1 key(s), 0 value(s)] REMOVED HKCU:\Software\Wow6432Node\Microsoft\Windows [3 key(s), 0 value(s)] == Registry in my whole computer (HKLM) == REMOVED HKLM:\SOFTWARE\Adobe [4 key(s), 1 value(s)] REMOVED HKLM:\SOFTWARE\Policies\Adobe [7 key(s), 3 value(s)] NOT FOUND HKLM:\SOFTWARE\WOW6432Node\Policies\Adobe REMOVED HKLM:\SOFTWARE\Classes\.ccx [1 key(s), 1 value(s)] REMOVED HKLM:\SOFTWARE\Classes\AAM [4 key(s), 3 value(s)] REMOVED HKLM:\SOFTWARE\Classes\auphd [5 key(s), 4 value(s)] REMOVED HKLM:\SOFTWARE\Classes\Adobe.UnifiedPluginInstallerAgent.1 [4 key(s), 2 value(s)] REMOVED HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2 [2 key(s), 2 value(s)] REMOVED HKLM:\SOFTWARE\MozillaPlugins [1 key(s), 0 value(s)] REMOVED HKLM:\SOFTWARE\WOW6432Node\MozillaPlugins [1 key(s), 0 value(s)] REMOVED HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Ext\Stats [1 key(s), 0 value(s)] REMOVED HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Ext\Stats [1 key(s), 0 value(s)] REMOVED HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Extensions [2 key(s), 0 value(s)] == Saved Adobe sign-in data (Windows Credential Manager) == REMOVED Credential 'ACCC.com.adobe.acc.pmp.<adobe-user-id>.ThirdPartyPluginsInstall' REMOVED Credential 'Adobe App Info (Q3JlYXRpdmVDbG91ZEluc3RhbGxlcjF7fTIwMTgwNzIwMDE)(Part2)' REMOVED Credential 'Adobe App Info (Q3JlYXRpdmVDbG91ZEluc3RhbGxlcjF7fTIwMTgwNzIwMDE)(Part5)' REMOVED Credential 'Adobe User Info(Part2)' REMOVED Credential 'Adobe App Info (Q3JlYXRpdmVDbG91ZEluc3RhbGxlcjF7fTIwMTgwNzIwMDE)(Part1)' REMOVED Credential 'Adobe App Info (Q3JlYXRpdmVDbG91ZEluc3RhbGxlcjF7fTIwMTgwNzIwMDE)(Part6)' REMOVED Credential 'Adobe User Info(Part1)' REMOVED Credential 'Adobe User OS Info(Part1)' REMOVED Credential 'Adobe App Info (Q3JlYXRpdmVDbG91ZEluc3RhbGxlcjF7fTIwMTgwNzIwMDE)(Part3)' REMOVED Credential 'Adobe App Info (Q0NYUHJvY2VzczF7fTIwMTgwNzIwMDE)(Part4)' REMOVED Credential 'Adobe App Info (Q0NYUHJvY2VzczF7fTIwMTgwNzIwMDE)(Part2)' REMOVED Credential 'Adobe App Info (Q3JlYXRpdmVDbG91ZEluc3RhbGxlcjF7fTIwMTgwNzIwMDE)(Part4)' REMOVED Credential 'Adobe App Info (Q0NYUHJvY2VzczF7fTIwMTgwNzIwMDE)(Part1)' REMOVED Credential 'Adobe App Info (Q0NYUHJvY2VzczF7fTIwMTgwNzIwMDE)(Part5)' REMOVED Credential 'Adobe App Info (Q0NYUHJvY2VzczF7fTIwMTgwNzIwMDE)(Part3)' REMOVED Credential 'ACCC.com.adobe.acc.container.<adobe-user-id>.AdobeStock:NOTIFICATION_KEY' REMOVED Credential 'Adobe App Info (Q0NYUHJvY2VzczF7fTIwMTgwNzIwMDE)(Part6)' REMOVED Credential 'ACCC.com.adobe.acc.container.<adobe-user-id>.AdobeStock:UPDATE_INDICATOR_VISIBILITY_KEY' == Adobe certificate store (Current User\AdobeCertStore) == REMOVED Cert:\CurrentUser\AdobeCertStore\D211DD84A49229336B7529BE866B6193F021DD64 [Adobe Intermediate CA 10-23] REMOVED Cert:\CurrentUser\AdobeCertStore\D1DF7F06B769BCCB3F4479041EC1F06E9CD3CB1A [Adobe Intermediate CA 10-3] REMOVED Cert:\CurrentUser\AdobeCertStore\A5C8D928986EC17FCC7D5F2353885D1709B73A29 [Adobe Intermediate CA 10-15] REMOVED Cert:\CurrentUser\AdobeCertStore\85E2C5B0D9CFF505363FA62A5E8B8C1D76A60B46 [Adobe Intermediate CA 10-19] REMOVED Cert:\CurrentUser\AdobeCertStore\686DF0A4A89F7CB6BFB4D33C6A48E2EE5FB6C4FB [Adobe Content Certificate 10-8] REMOVED Cert:\CurrentUser\AdobeCertStore\4C7C2E87F0BC79A039D39B05F899A1CC521FDE99 [Adobe Content Certificate 10-7] REMOVED Cert:\CurrentUser\AdobeCertStore\44D11C49415E08483AE956EED29301E754C11256 [Adobe Content Certificate 10-10] REMOVED Cert:\CurrentUser\AdobeCertStore\305EAF7D7646F624E0EF96F02D2DD8E4FF0D84C2 [Adobe Content Certificate 10-9] REMOVED HKCU:\Software\Microsoft\SystemCertificates\AdobeCertStore [4 key(s), 0 value(s)] Note 1: the Uninstall Creative Cloud desktop app did throw some error message after running for a while, but it doesn't say anything about the actual error(s): Note 2: after running the Uninstall Creative Cloud desktop app, once must restart Windows. Reason: after running the Uninstall Creative Cloud desktop app, Explorer still has the Creative Cloud Files add-on ( CoreSync_x64.dll , 768 KB) loaded. It goes away when Explorer restarts, and Windows deletes the file at the next restart. That is the only thing that was taking memory that I could see after running the Uninstall Creative Cloud desktop app.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941528/how-can-i-100-cleanly-uninstall-adobe-creative-cloud-on-windows
+
+---
+
+#### 11268. What is the “screenshot border” in the Windows Snipping Tool?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, snipping-tool | Score: 3 | Views: 806 | Answers: 2 | Created: 2026-11-15
+
+**解决方案 / Solution**:
+When a program is recording a window or the screen, by default a thick colored border is placed around the recording region as a visual indicator that whatever's there is not (currently) private. It's a second line of defense after the related screenshot/screen recording permission setting, so that apps which have been granted that permission still can't secretly record things. (The border is not visible in the capture, just on your monitor.) You can disable the border on a per-app basis if you trust the app and find the border distracting. Windows is asking you if you'd like to let Snipping Tool disable that border for Snipping Tool captures. Snipping Tool has a quirk (or suspicious behavior, depending on your level of suspicion) where it sometimes leaves the border up after capturing. This request is presumably the developers' minimum-effort attempt to work around that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941588/what-is-the-screenshot-border-in-the-windows-snipping-tool
+
+---
+
+#### 11269. Why does my VirtualBox VM stay on a black screen when booting the official Windows 11 26H2 ISO? (UEFI, multiple vCPUs, Hyper-V enabled on the host)
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, virtualbox, virtual-machine, windows-11-26-h2 | Score: 3 | Views: 429 | Answers: 1 | Created: 2026-11-11
+
+**解决方案 / Solution**:
+Power off the VM, run the following command, and start the VM again: VBoxManage setextradata "<VM name>" "VBoxInternal/EM/ExitOptimizationEnabled" 0 Reason : UEFI VMs with two or more vCPUs then hang inside VirtualBox's UEFI firmware while it coordinates the secondary CPUs before any display mode is set. This VirtualBox bug is reported on #643 where a VirtualBox developer commented that "something has changed with Hyper-V […] in a recent Windows build" and suggested the ExitOptimizationEnabled workaround above. Optimization note: notice this line in the VM log NEM: NEMR3Init: Snail execution mode is active! This is because Hyper-V is enabled in the host. Hyper-V is a native hypervisor developed by Microsoft. Intel VT-x, which is the CPU's virtualization hardware on OP's laptop, can only be controlled by one hypervisor at a time. When the Windows hypervisor (namely Hyper-V) is on, it controls VT-x (hence the VT-x is not available in the VirtualBox log), and VirtualBox asks Hyper-V to run the VM instead of using the CPU directly. That's slow because a running VM hands control back to VirtualBox thousands of times per second, whenever it uses the disk, network, screen, timers, etc. Each handoff now takes a longer route: Hypervisor off: VM <-> VirtualBox Hypervisor on: VM <-> Windows hypervisor (Hyper-V) <-> Windows kernel <-> VirtualBox Which is why VBox calls it the "Snail execution mode" when Hyper-V is on. To disable Hyper-V (which will cause WSL to stop working), run the following command in PowerShell (with admin mode), then restart Windows: bcdedit /set hypervisorlaunchtype off Otherwise, if one wishes to keep Hyper-V on, one can use VMware Workstation Pro (gratis): it is still efficient when Hyper-V is on, but WSL2, Docker or Hyper-V won't work inside the VM. Can't have it all sadly!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941506/why-does-my-virtualbox-vm-stay-on-a-black-screen-when-booting-the-official-windo
+
+---
+
+#### 11270. Why is my Windows 11 guest's screen slanted (sheared diagonally) in VMware Workstation, and how can I fix it?
+
+**问题描述 / Problem Description**:
+Tags: windows, virtual-machine, vmware | Score: 3 | Views: 87 | Answers: 1 | Created: 2026-10-31
+
+**解决方案 / Solution**:
+VMware Tools contain the SVGA display driver that handles rendering inside the guest. If they became mismatched with your Workstation version, the driver can produce shearing like this. Try reinstalling VMware Tools: VM → Reinstall VMware Tools, follow the wizard, then reboot the guest. If shearing persists after that, turn off 3D acceleration: VM → Settings → Display, uncheck "Accelerate 3D graphics".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941316/why-is-my-windows-11-guests-screen-slanted-sheared-diagonally-in-vmware-works
+
+---
+
+#### 11271. How to expose a virtual drive on Windows for on-the-fly file reads over 50 MB without admin rights?
+
+**问题描述 / Problem Description**:
+Tags: windows, filesystems, python, webdav, fuse | Score: 2 | Views: 159 | Answers: 1 | Created: 2026-10-25
+
+**解决方案 / Solution**:
+WebDAV fails twice over. WebClient ( mrxdav.sys ) isn't a memory stream; it stages downloads in %SystemRoot%\ServiceProfiles\LocalService\AppData\Local\Temp\TfsStore\Tfs_DAV , so plaintext hits your SSD anyway, and the 50 MB cap isn't just a header value either — faking getcontentlength or switching to chunked still gets counted as the body is written into that cache. Your list is right except cldapi . A non-admin unpackaged process can call CfRegisterSyncRoot , but hydration writes into the backing placeholder file on NTFS, so it breaks the no-disk requirement the same way. The rest holds: without an admin-installed kernel driver or SMB on a non-445 port, there's no inbox redirector that hands a normal user a Z: . So drop the drive letter. Register a COM shell namespace extension under HKCU only, the CLSID plus a NameSpace entry, and it shows up in This PC with no admin rights at all. Implement IShellFolder and hand back CFSTR_FILEDESCRIPTOR with CFSTR_FILECONTENTS over TYMED_ISTREAM ; Explorer loops your IStream::Read while copying out to external media, no ceiling and nothing cached to C: . Two caveats: a command prompt can't see it, and don't let anyone double-click in there, since ShellExecute still extracts a temp file first.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941163/how-to-expose-a-virtual-drive-on-windows-for-on-the-fly-file-reads-over-50-mb-wi
+
+---
+
+#### 11272. Why does my Dell Latitude 7420 (Windows 11) turn off the display and locks after inactivity despite sleep and display timeouts set to “Never?”
+
+**问题描述 / Problem Description**:
+Tags: laptop, windows-11, sleep | Score: 1 | Views: 78 | Answers: 1 | Created: 2026-11-17
+
+**解决方案 / Solution**:
+Check that you don't have a Windows Hello IR camera. Models with this do indeed use a proximity sensor to detect presence and lock up when nobody is detected. If you do, install Dell Optimizer if you don't have it already, then turn off Presence Detection inside there. I see that you said that you checked for presence settings, but you never said where.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941634/why-does-my-dell-latitude-7420-windows-11-turn-off-the-display-and-locks-after
+
+---
+
+#### 11273. Random "Device Disconnect" sound but WMI __InstanceDeletionEvent doesn't log anything
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10 | Score: 1 | Views: 72 | Answers: 1 | Created: 2026-11-13
+
+**解决方案 / Solution**:
+Two things could explain why both loggers stay empty. The WMI __InstanceDeletionEvent query is polled (the WITHIN interval), so a device that drops and comes back between two polls never shows up. And the disconnect sound plays for any PnP device going away, not only USB ones, so USBLogView can miss it as well (HID children, Bluetooth, the HDMI/DP audio of a monitor). Since turning off USB selective suspend made it stop, my guess is one USB device that doesn't wake cleanly from suspend and re-enumerates. To find which one without leaving it off for good, turn selective suspend back on and, in Device Manager, untick "Allow the computer to turn off this device to save power" (Power Management tab) on one hub or device at a time. Headset dongles, hubs and keyboard/mouse receivers are where I'd start. Also check Event Viewer > Applications and Services Logs > Microsoft > Windows > Kernel-PnP > Configuration at the time of the sound: a device that re-enumerated usually leaves an entry there with its instance ID, even when setupapi.dev.log stays quiet.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941545/random-device-disconnect-sound-but-wmi-instancedeletionevent-doesnt-log-any
+
+---
+
+#### 11274. Zoom window disappears when monitors change
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar, window, zoom, zoom-meeting | Score: 1 | Views: 102 | Answers: 1 | Created: 2026-11-05
+
+**解决方案 / Solution**:
+Moving the window (Win+ArrowLeft or Win+ArrowRight) does not work, but maximizing it (e.g., via Win+ArrowUp) seems to make it visible again, at least in my case. Next time I experience this, I will try, if it was just "Win+ArrowUp" that fixed the issue or if it was a combination of multiple steps. Meanwhile, I would be interested if anyone could verify this behaviour or if anyone is interested in testing this with me (I'm not using Zoom very often).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941424/zoom-window-disappears-when-monitors-change
+
+---
+
+#### 11275. Backslash not working from 'xdotool' when connecting to Windows host over xfreerdp
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, remote-desktop, keyboard-layout, redhat-enterprise-linux | Score: 1 | Views: 81 | Answers: 1 | Created: 2026-11-03
+
+**解决方案 / Solution**:
+I still don't know what is causing the problem (it did not occur on the old system I'm migrating from), but I was able to work around it - using xdotool key 51 (which apparently simulates keypress of an actual backslash key, contrary to "synthetic" events produced by xdotool key backslash or xdotool key 0x5c ) works correctly and sends the backslash to the Windows remote host.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941382/backslash-not-working-from-xdotool-when-connecting-to-windows-host-over-xfreer
+
+---
+
+#### 11276. Remote profiles directory are not accessible with administrator account [Windows Server 2022 + Active Directory]
+
+**问题描述 / Problem Description**:
+Tags: permissions, active-directory, windows-server | Score: 0 | Views: 14 | Answers: 1 | Created: 2026-11-18
+
+**解决方案 / Solution**:
+How is it possible that I cannot access these folders, even though I'm logged in on the built-in Administrator account with full permissions and the user's primary group is Domain admins? By default, admins are not actually granted access to roaming user profiles, i.e. neither Administrator nor the local Administrators group – nor Domain Admins – are listed in the ACLs of roaming user profile folders. And on Windows (unlike root on Linux), administrators do not normally get to bypass an ACL which doesn't explicitly grant them access. (Well, they do have this privilege but a process needs to explicitly enable it.) To have Administrators added by default, deploy a Group Policy which enables the setting: Computer > Administrative Templates > System > User profiles > "Add the Administrators security group to roaming user profiles"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941663/remote-profiles-directory-are-not-accessible-with-administrator-account-windows
+
+---
+
+#### 11277. Run batch script as adminstrator on startup
+
+**问题描述 / Problem Description**:
+Tags: windows-11, batch-file | Score: 0 | Views: 56 | Answers: 1 | Created: 2026-11-17
+
+**解决方案 / Solution**:
+The simplest solution is to use Windows Task Scheduler, which can run your script automatically with administrator privileges. How to configure: Open Task Scheduler. Select Create Task (not Create Basic Task). Under General: Enter a name, such as Sync Windows Time. Enable Run with highest privileges. Select Run whether user is logged on or not if appropriate. Under Triggers, create a trigger: Select At startup to run when Windows boots. Optionally set a delay of 30–60 seconds to allow networking to initialise. Under Actions, select Start a program: Program: C:\Windows\System32\cmd.exe Arguments: /c "C:\path\to\your\bat\file.bat" Under Conditions, disable Start the task only if the computer is on AC power if needed. Save the task and test it using Right-click > Run.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941644/run-batch-script-as-adminstrator-on-startup
+
+---
+
+#### 11278. Windows 11 M.2 SATA SSD hits 100% active time at boot and stays there, with almost no throughput
+
+**问题描述 / Problem Description**:
+Tags: ssd, windows-11, sata, device-manager | Score: 0 | Views: 85 | Answers: 1 | Created: 2026-11-16
+
+**解决方案 / Solution**:
+The Intel Rapid Storage driver was the cause. iaStorAC.sys 17.9.6.1019 was bound to a SATA AHCI controller ( CC_0106 ). On this DRAM-less M.2 SATA SSD, small reads and writes took 7–33 ms, so Task Manager reported about 100% active time while throughput stayed under 30 MB/s. The ADATA SSD on the same controller did not stall. Power settings, MSI, and the paging file were already in the state those guides recommend, and the disk was still saturated. Standard SATA AHCI Controller is the inbox Windows driver ( storahci.sys ). Nothing has to be downloaded. Open PowerShell as administrator and run: Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\storahci' -Name Start -Value 0 Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\storahci\StartOverride' -Name '0' -Value 0 If PowerShell reports that StartOverride does not exist, continue. Start = 0 is enough. Device Manager → IDE ATA/ATAPI controllers → Intel(R) 300 Series Chipset Family SATA AHCI Controller → Update driver → Browse my computer for drivers → Let me pick from a list of available drivers on my computer → Standard SATA AHCI Controller. If that entry is missing, cancel and leave the Intel driver in place. Start → Power → Restart. Use Restart, not Shut down. After reboot the controller is Standard SATA AHCI Controller from Microsoft, and the disk port driver is storahci . The same light load then sits around 1–10% active time, including about 8% at 15 MB/s and about 10% at 26 MB/s, with writes mostly at 0.4–2.5 ms. Leave the paging file system-managed. iaStorAC can remain installed; it is no longer the driver for these disks. This applies when the controller is already AHCI ( CC_0106 ). A controller whose hardware id is a RAID device ( CC_0104 ) is a different case and needs the BIOS SATA mode changed to AHCI before storahci can take over.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941615/windows-11-m-2-sata-ssd-hits-100-active-time-at-boot-and-stays-there-with-almo
+
+---
+
+#### 11279. How can I open the current session's data folder in File Explorer from the GitHub Copilot desktop app?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, github-copilot | Score: 0 | Views: 48 | Answers: 1 | Created: 2026-11-15
+
+**解决方案 / Solution**:
+Reddit user Rojeitor/ pointed me to a way to easily copy the session ID: In the left menu where the sessions are, right click session name, copy session ID
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941591/how-can-i-open-the-current-sessions-data-folder-in-file-explorer-from-the-githu
+
+---
+
+#### 11280. VirtualBox clone crashes VBoxSVC and leaves a folder with no .vbox file
+
+**问题描述 / Problem Description**:
+Tags: windows, virtualbox, virtual-machine, clone, windows-11-26-h2 | Score: 0 | Views: 53 | Answers: 1 | Created: 2026-11-14
+
+**解决方案 / Solution**:
+Option 1. Shorten the name: Since there are 1025 slice files, shortening the names keeps the filenames’ sizes from being larger than the fixed-size buffer. Option 2. Create one big VDI You can run this command: VBoxManage clonemedium disk "C:\path\to\Windows 11 Pro 26300_9457 (Official ISO) (2026-11-11b).vmdk" "C:\path\to\dest\Win11_onefile.vdi" --format VDI --variant Standard then attach the new file to a new VM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941575/virtualbox-clone-crashes-vboxsvc-and-leaves-a-folder-with-no-vbox-file
+
+---
+
+#### 11281. GitHub Copilot Desktop (v1.4.0): failed to create session: RPC error -32603
+
+**问题描述 / Problem Description**:
+Tags: windows, github-copilot | Score: 0 | Views: 80 | Answers: 1 | Created: 2026-11-13
+
+**解决方案 / Solution**:
+Installing GitHub Copilot Desktop 1.4.1 fixed the issue. Strangely, the bug fix appears in 1.4.2's changelog though: Fixed sessions failing to start or resume with "Session plugin inputs changed during reload" when your organization's policy turns off Computer Use while it is turned on in your settings. So I am a bit confused what's going exactly but anyway, just install 1.4.2.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941550/github-copilot-desktop-v1-4-0-failed-to-create-session-rpc-error-32603
+
+---
+
+#### 11282. Windows 10 Administrator versus Local admin
+
+**问题描述 / Problem Description**:
+Tags: windows, administrator | Score: 0 | Views: 97 | Answers: 1 | Created: 2026-11-10
+
+**解决方案 / Solution**:
+The built-in Windows administrator and local user administrator have some differing properties. Feature Local user admin Built-in Admin Administrator privileges Full when elevated Full by default User Account Control (UAC) Enabled by default Bypassed by default Runs programs elevated automatically No Yes Enabled by default Usually No Can be deleted Yes No Can be renamed Yes Yes Account SID Unique, normally RID 1000+ Always ends in -500 Security Safer for daily use Higher risk for daily use For regular use the local admin is the better option. See Microsoft Documentation for lengthy details
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941488/windows-10-administrator-versus-local-admin
+
+---
+
+#### 11283. Windows 11 - Legacy application fails with "Class not registered" (DAO 3.5 CLSID)
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, vba, 64-bit, register | Score: 0 | Views: 123 | Answers: 1 | Created: 2026-11-10
+
+**解决方案 / Solution**:
+The 0x80004005 from regsvr32 isn't a permissions problem - that would be 0x80070005 . DAO350.dll loads, but its DllRegisterServer tries to initialize the Jet 3.5 engine, which requires MSJET35.dll, MSJINT35.dll, MSJTER35.dll, and MSRD2X35.dll. Those four DLLs are missing on your system, so the call fails with a generic E_FAIL. Jet 3.5 shipped with Access 97 (32-bit). If you have an Office 97 or Access 97 install disc, copy those four DLLs from it into C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\ , then re-run the 32-bit tool: %windir%\SysWOW64\regsvr32.exe "C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao350.dll" .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941486/windows-11-legacy-application-fails-with-class-not-registered-dao-3-5-clsid
+
+---
+
+#### 11284. Windows 11 25H2 update fails to install - Restorations has no effect
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-update | Score: 0 | Views: 138 | Answers: 1 | Created: 2026-11-10
+
+**解决方案 / Solution**:
+The two tools you ran can't possibly fix this, and here's why — plus what actually can. First, the thing you're worried about is a red herring. You wrote that nothing in Get-Packages says 26200 and wondered if that's odd. It isn't. 25H2 is not a separate install — it's an enablement package (KB5054156) applied on top of the 24H2 core. It flips on features that were already shipped inside the monthly 24H2 updates; it doesn't lay down new system files. So every package in the store, including that RollupFix, is versioned 26100.* by design. Your own CBS.log confirms it — the packages on the system are 10.0.26100.8036/8037. A 26200 device with 26100 packages is completely normal. So don't chase that. Second, your error code tells us what's actually wrong. 0x80070308 is ERROR_REQUEST_OUT_OF_SEQUENCE — "the client of a component requested an operation which is not valid given the state of the component instance." In servicing terms that means CBS is trying to commit a transaction while a previous update operation is still sitting in a pending state. It's a stuck-state problem, not a corruption problem. That's precisely why DISM /RestoreHealth and sfc /scannow did nothing. Both tools verify and repair the component store and protected files. A stuck pending transaction isn't a damaged file, so both report success and change nothing. Same reason clicking Retry changes nothing — the stale state is still there. Here's what to actually do, in order. Clear the stuck pending state. Check whether a reboot is being requested but not registered: reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing\RebootPending" reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired" If those keys exist, something is half-committed. Boot into WinRE (Shift+Restart → Troubleshoot → Advanced options → Command Prompt) and rename the pending queue rather than deleting it: rename C:\Windows\WinSxS\pending.xml pending.xml.bak also clear the pending flag in the offline COMPONENTS hive: reg load HKLM\SU_COMPONENTS C:\Windows\System32\config\COMPONENTS reg delete HKLM\SU_COMPONENTS /v PendingIdentifier /f reg unload HKLM\SU_COMPONENTS (This is the classic fix for 0x80070308 — the "PendingIdentifier / pending reboot" value not getting cleared.) Reboot and try the update again. If that fails, do an in-place repair upgrade. This is the real answer for a broken servicing state, and it's much more effective than endlessly resetting update components. Download the Windows 11 25H2 ISO from Microsoft, mount it, run setup.exe, and choose “Keep personal files and apps” ​. It re-lays the whole OS on top of itself while preserving your data and installed software, and it rebuilds the servicing stack and package database from scratch. Given your system hasn't taken a cumulative update since October 2025, this will also pull you current in one shot. Before either step, sanity-check two boring things that are easy to miss: free space on the system drive (LCUs need several GB of headroom to stage and commit), and whether a third-party AV or "system optimizer" is holding a file lock — both are common causes of a transaction that can't commit. One thing worth noting from your CBS.log:​ those 0x80070216 - ERROR_ARITHMETIC_OVERFLOW lines about "scavenging starvation report" are harmless noise, not your problem. The real failure section is further down in the log than what you pasted — search the full file for 0x80070308 and the lines directly above it will name the exact component that couldn't commit.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941485/windows-11-25h2-update-fails-to-install-restorations-has-no-effect
+
+---
+
+#### 11285. How do I configure GnuPG in MSYS2?
+
+**问题描述 / Problem Description**:
+Tags: windows, gnupg, msys, msys2 | Score: 0 | Views: 83 | Answers: 1 | Created: 2026-11-09
+
+**解决方案 / Solution**:
+MSYS2 imports Windows environment variables at startup and tries to translate drive-letter paths automatically, but C:\Users\...\gnupg often comes out as /home/user/C:/Users/.../gnupg - the MSYS2 home gets prepended to the Windows path instead of a proper conversion. Add this to ~/.bashrc : export GNUPGHOME="$(cygpath -u "$APPDATA")/gnupg" cygpath -u converts %APPDATA% to /c/Users/.../AppData/Roaming cleanly, so it overrides whatever the Windows registry provides and gpg -k will find the keybox on the next shell start.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941472/how-do-i-configure-gnupg-in-msys2
+
+---
+
+#### 11286. How can I import Chrome cookies and passwords into GitHub Copilot Desktop’s built-in browser?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, passwords, import, github-copilot | Score: 0 | Views: 67 | Answers: 1 | Created: 2026-11-07
+
+**解决方案 / Solution**:
+GitHub Copilot Desktop currently doesn't natively offer any way to import Chrome cookies and passwords into GitHub Copilot Desktop’s built-in browser. One workaround: enable the Playwright MCP server , as shown in the screenshot below. Playwright has no way to import passwords, however Playwright MCP's default browser profile is kept between sessions (= if one signs in by hand in its window once, then one stays signed in for all the next sessions). If that is not enough, one can use --extension : install the Playwright Extension, and Playwright MCP controls already-open Chrome or Edge (= saved passwords and logins carry over). Other useful Playwright options: --storage-state : loads your login cookies from a saved JSON file. --secrets : a file holding only the passwords the agent needs, each under a name. The agent types the name and Playwright fills in the real password.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941445/how-can-i-import-chrome-cookies-and-passwords-into-github-copilot-desktop-s-buil
+
+---
+
+#### 11287. Windows 10 black screen with cursor after cloning MBR HDD to GPT NVMe SSD using Macrium Reflect
+
+**问题描述 / Problem Description**:
+Tags: windows-10, boot, ssd, cloning, macrium | Score: 0 | Views: 164 | Answers: 1 | Created: 2026-11-05
+
+**解决方案 / Solution**:
+Solution: Correct the cloned Windows drive-letter mapping in the offline registry I resolved the issue without reinstalling Windows. The cloned Windows installation retained an incorrect mapping for drive C: in its offline SYSTEM registry hive. Under: HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices the \DosDevices\C: entry still contained the original MBR HDD's disk signature and partition-offset information. Meanwhile, \DosDevices\H: contained the GPT partition identifier for the Windows partition on the new SSD. This mismatch was the likely cause of the repeated LogonUI.exe and dwm.exe failures. Verification I booted the original working Windows installation from the HDD, with the cloned SSD also connected. In Disk Management, the cloned Windows partition appeared as drive I:. In elevated PowerShell: Get-Partition -DriveLetter I | Format-List DiskNumber,PartitionNumber,Guid,Type I compared its partition GUID with the binary value stored in the cloned Windows registry under \DosDevices\H: . They matched. Fix Warning: Editing an offline SYSTEM registry hive can make Windows unbootable if the wrong disk, hive, or partition identifier is used. Back up the registry and verify every identifier first. From the working Windows installation: Backed up the cloned SSD's Windows\System32\Config\SYSTEM hive. Loaded the cloned SSD's SYSTEM hive into a temporary registry key. Exported its MountedDevices key as an additional backup. Replaced the cloned registry's \DosDevices\C: binary value with the verified binary value associated with the SSD partition. Removed the now-redundant \DosDevices\H: entry. Unloaded the offline registry hive to save the changes. The key commands used to inspect the offline registry were: reg load HKLM\SSDTEST I:\Windows\System32\Config\SYSTEM reg export "HKLM\SSDTEST\MountedDevices" "I:\MountedDevices-backup.reg" /y reg query "HKLM\SSDTEST\MountedDevices" /v "\DosDevices\C:" reg query "HKLM\SSDTEST\MountedDevices" /v "\DosDevices\H:" After verifying the actual target partition GUID and binary mapping, I updated the C: value, removed the obsolete H: mapping, and executed: reg unload HKLM\SSDTEST Do not reuse another computer's binary mapping values. The correct values depend on the actual target partition. Result Windows successfully booted from the Intenso NVMe SSD in UEFI mode. Afterward: The login screen and desktop appeared normally. Subsequent restarts succeeded. Both the original HDD and the new SSD could remain connected. Installed Windows applications and settings were preserved. Verification: Get-Partition -DriveLetter C | Get-Disk | Select-Object FriendlyName,BusType,PartitionStyle The result identified the Intenso NVMe SSD as the Windows system drive. Conclusion: If a Windows clone boots to a black screen with a cursor after an MBR-to-GPT migration, and boot repair does not resolve it, checking the cloned Windows installation's offline MountedDevices mappings may reveal a stale C: mapping. This fixed my specific installation; it should not be applied blindly without confirming the target partition identity.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941422/windows-10-black-screen-with-cursor-after-cloning-mbr-hdd-to-gpt-nvme-ssd-using
 
 ---

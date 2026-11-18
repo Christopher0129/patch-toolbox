@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 995**
+**总计条目 / Total entries: 996**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -14521,5 +14521,17 @@ In handle_le_monitor_device_event of msft.cc, there is a possible control-flow h
 
 **参考链接 / References**:
 - https://source.android.com/docs/security/bulletin/2026/2026-10-01
+
+---
+
+#### 996. [remote] Ruflo MCP Bridge  3.16.2 - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ruflo MCP Bridge 3.16.2 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52705
 
 ---
