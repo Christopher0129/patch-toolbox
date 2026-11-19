@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4263**
+**总计条目 / Total entries: 4271**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -60620,5 +60620,101 @@ A vulnerability has been discovered in Brotli, allowing remote code execution.
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202611-01
+
+---
+
+#### 4264. [Ubuntu] USN-9175-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Intel NPU Dr
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9175-1
+
+---
+
+#### 4265. [Ubuntu] USN-9172-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - XFRM subsystem; (CVE-2026-98432, CVE-2026-99999)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9172-1
+
+---
+
+#### 4266. [Ubuntu] USN-9170-2: Linux kernel (AWS FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - SCTP protocol; - XFRM subsystem; (CVE-2026-64564, CVE-2026-98432, CVE-2026-99999)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9170-2
+
+---
+
+#### 4267. [Ubuntu] USN-9169-1: Linux kernel (AWS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Stream parser; - x86 architecture; - GPU drivers; - HID subsystem; - I3C subsystem; - MemoryStick subsystem; - Network drivers; - Ethernet team driver; - NVME drivers; - S/390 drivers; - SCSI subsystem; - Greybus light
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9169-1
+
+---
+
+#### 4268. [Ubuntu] USN-9166-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Compute Acceleration Framework; - FireWire subsystem; - GPIO subsystem; - GPU drivers; - Microsoft Hyper-V drivers; - I2C subsystem
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9166-1
+
+---
+
+#### 4269. [Ubuntu] USN-9165-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Cryptographic API; - File systems infrastructure; - Key management; - Key Management; - io_uring subsystem; - PID namespace; - Tracing infrastructure; (CVE-2026-99218, CVE-2026-99219, CVE-2026-99220, CVE-2026-99221, CV
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9165-1
+
+---
+
+#### 4270. [Ubuntu] USN-9164-1: Linux kernel (FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Demi Marie Obenour and Simon Gaiser discovered that several Xen para- virtualization device frontends did not properly restrict the access rights of device backends. An attacker could possibly use a malicious Xen backend to gain access to memory pages of a guest VM or cause a denial of service in the guest. (CVE-2022-23036, CVE-2022-23037) Several security issues were discovered in the Linux kerne
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9164-1
+
+---
+
+#### 4271. [Ubuntu] USN-9163-1: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - File systems infrastructure;
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9163-1
 
 ---

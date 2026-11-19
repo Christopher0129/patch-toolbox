@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3928**
+**总计条目 / Total entries: 3939**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -70022,5 +70022,181 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9146-1
+
+---
+
+#### 3929. [Ubuntu] USN-9175-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Intel NPU Dr
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9175-1
+
+---
+
+#### 3930. [Ubuntu] USN-9172-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - XFRM subsystem; (CVE-2026-98432, CVE-2026-99999)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9172-1
+
+---
+
+#### 3931. [Ubuntu] USN-9170-2: Linux kernel (AWS FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - SCTP protocol; - XFRM subsystem; (CVE-2026-64564, CVE-2026-98432, CVE-2026-99999)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9170-2
+
+---
+
+#### 3932. [Ubuntu] USN-9169-1: Linux kernel (AWS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Stream parser; - x86 architecture; - GPU drivers; - HID subsystem; - I3C subsystem; - MemoryStick subsystem; - Network drivers; - Ethernet team driver; - NVME drivers; - S/390 drivers; - SCSI subsystem; - Greybus light
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9169-1
+
+---
+
+#### 3933. [Ubuntu] USN-9166-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Compute Acceleration Framework; - FireWire subsystem; - GPIO subsystem; - GPU drivers; - Microsoft Hyper-V drivers; - I2C subsystem
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9166-1
+
+---
+
+#### 3934. [Ubuntu] USN-9165-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Cryptographic API; - File systems infrastructure; - Key management; - Key Management; - io_uring subsystem; - PID namespace; - Tracing infrastructure; (CVE-2026-99218, CVE-2026-99219, CVE-2026-99220, CVE-2026-99221, CV
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9165-1
+
+---
+
+#### 3935. [Ubuntu] USN-9164-1: Linux kernel (FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Demi Marie Obenour and Simon Gaiser discovered that several Xen para- virtualization device frontends did not properly restrict the access rights of device backends. An attacker could possibly use a malicious Xen backend to gain access to memory pages of a guest VM or cause a denial of service in the guest. (CVE-2022-23036, CVE-2022-23037) Several security issues were discovered in the Linux kerne
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9164-1
+
+---
+
+#### 3936. [Ubuntu] USN-9163-1: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - File systems infrastructure;
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9163-1
+
+---
+
+#### 3937. [Ubuntu] USN-9161-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S/390 drivers; - File systems infrastructure; - Internal shared memory driver; - Tracing infrastructure; (CVE-2025-39689, CVE-2025-39691, CVE-2025-39726)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9161-1
+
+---
+
+#### 3938. [Ubuntu] USN-9160-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - USB Gadget drivers; - Memory management; - Multiple devices driver; - ARM64 architecture; - EROFS file system; - Network file systems library; - Networking core; - eXpress Data Path; - Stream parser; - ARM32 architectu
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9160-1
+
+---
+
+#### 3939. [Ubuntu] USN-9159-1: nginx vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly handle certain memory operations. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. (CVE-2026-123007) Albert Ebb Metnir and
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9159-1
 
 ---
