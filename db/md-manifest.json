@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:27:58.818328+00:00",
+  "generated_at": "2026-11-20T23:41:59.616727+00:00",
   "files": [
     {
       "path": "network-security/index.md",
@@ -8,7 +8,7 @@
     },
     {
       "path": "network-security/linux.md",
-      "size_bytes": 2463266,
+      "size_bytes": 2466729,
       "first_line": "# Linux 网络安全漏洞 | Linux Network Security"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "entry_counts": {
-    "network-security": 6377,
+    "network-security": 6383,
     "system-vulnerabilities": 6448,
     "system-troubleshooting": 32292
   }

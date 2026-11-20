@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4271**
+**总计条目 / Total entries: 4277**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -60716,5 +60716,77 @@ A security issue was discovered in the Linux kernel. An attacker could possibly 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9163-1
+
+---
+
+#### 4272. [Ubuntu] USN-9182-1: nginx vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Marc Luchian and Liviu-Alexandru Bud discovered that nginx did not correctly handle certain configurations using the try_files and alias directives. A remote attacker could possibly use this issue to cause nginx to crash, resulting in a denial of service. (CVE-2026-125283) Vivek Parikh discovered that nginx did not correctly handle parsing certain ClientHello messages. A remote attacker could poss
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9182-1
+
+---
+
+#### 4273. [Ubuntu] USN-9181-1: OpenJDK 8 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the JGSS component of OpenJDK 8 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK 8 did not correctly authorize users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114940) It was
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9181-1
+
+---
+
+#### 4274. [Ubuntu] USN-9180-1: CRaC JDK 25 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Albert Yang and Quang Luong discovered that the Compiler component of CRaC JDK 25 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of CRaC JDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or m
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9180-1
+
+---
+
+#### 4275. [Ubuntu] USN-9179-1: CRaC JDK 21 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Albert Yang and Quang Luong discovered that the Compiler component of CRaC JDK 21 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of CRaC JDK 21 did not correctly authenticate users. A remote attacker could possibly use this issue to read or m
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9179-1
+
+---
+
+#### 4276. [Ubuntu] USN-9177-1: PyJWT vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PyJWT incorrectly accepted non-canonical encodings of token signature segments. An attacker could possibly use this issue to bypass token revocation checks.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9177-1
+
+---
+
+#### 4277. [Ubuntu] USN-9176-1: Ruby vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stephan Lipp discovered that Ruby incorrectly handled converting the case of certain strings. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (GHSA-34m4-m9fh-gqp5) Owais Lone discovered that Ruby incorrectly handled compiling certain large regular expressions. An attacker could possibly use this issue to cause a denial of service or execute arbitra
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9176-1
 
 ---
