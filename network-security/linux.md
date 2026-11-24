@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4277**
+**总计条目 / Total entries: 4287**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -60788,5 +60788,125 @@ Stephan Lipp discovered that Ruby incorrectly handled converting the case of cer
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9176-1
+
+---
+
+#### 4278. [Ubuntu] USN-9192-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could pos
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9192-1
+
+---
+
+#### 4279. [Ubuntu] USN-9191-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9191-1
+
+---
+
+#### 4280. [Ubuntu] USN-9190-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Compute Acceleration Framework; - FireWire subsystem; - GPIO subsystem; - GPU drivers; - Microsoft Hyper-V drivers; - I2C subsystem
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9190-1
+
+---
+
+#### 4281. [Ubuntu] USN-9189-1: Qt5Compat vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Qt5Compat did not correctly handle certain text codec names, which could lead to an out-of-bounds read. An attacker could possibly use this issue to cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9189-1
+
+---
+
+#### 4282. [Ubuntu] USN-9188-1: OAuthLib vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this is
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9188-1
+
+---
+
+#### 4283. [Ubuntu] USN-9187-1: libssh vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Haruto Kimura, Rinku Das, and Yi Lin discovered that libssh did not correctly handle SSH channel open messages advertising a zero maximum packet size. An authenticated user could possibly use this issue to cause libssh to use excessive resources, leading to a denial of service. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. (CVE-2026-59843) Mikhail Ilin and Sara
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9187-1
+
+---
+
+#### 4284. [Ubuntu] USN-9186-1: Tomcat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple security issues were discovered in Tomcat. Tomcat 10 has been updated to 10.1.61 in Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. Tomcat 11 has been updated to 11.0.27 in Ubuntu 26.04 LTS and Ubuntu 26.10. In addition to security fixes, the updated packages contain bug fixes, new features, and possibly incompatible changes. Please see the following for more information: https://tom
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9186-1
+
+---
+
+#### 4285. [Ubuntu] USN-9185-1: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PHP did not properly manage memory for fatal error backtraces during worker shutdown. An attacker could possibly use this issue to execute arbitrary code or cause a denial of service. This issue only affected Ubuntu 26.10 and Ubuntu 26.04 LTS. (CVE-2026-129182) It was discovered that PHP did not properly enforce signature verification for OpenSSL-signed Phar archives when an
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9185-1
+
+---
+
+#### 4286. [Ubuntu] USN-9184-1: Linux kernel (NVIDIA Tegra IGX) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - Hardware monitoring drivers; - OCFS2 file system; - IPv4 networking; - Ethernet bridge; - Netfilter; - XFRM subsystem; (CVE-2025-21656, CVE-2026-63940, CVE-2026-74350, CVE-2026-98432, CVE-2026-99999
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9184-1
+
+---
+
+#### 4287. [Ubuntu] USN-9176-2: Ruby vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-9176-1 fixed vulnerabilities in Ruby. This update provides the corresponding updates for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: Stephan Lipp discovered that Ruby incorrectly handled converting the case of certain strings. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (GHSA-34m4-m9fh-gqp5) Owais Lo
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9176-2
 
 ---
