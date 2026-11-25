@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3954**
+**总计条目 / Total entries: 3957**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -70438,5 +70438,53 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9176-2
+
+---
+
+#### 3955. [Ubuntu] USN-9196-1: Expat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Expat did not properly validate UTF-16 surrogate pairs. An attacker could possibly use this issue to pass malformed characters to applications using Expat, resulting in unexpected behavior. (CVE-2026-93990) It was discovered that Expat incorrectly computed memory allocation sizes on 32-bit platforms, leading to an integer overflow. An attacker could possibly use this issue t
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9196-1
+
+---
+
+#### 3956. [Ubuntu] USN-9194-1: libxrender vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Adam Bedard discovered that libXrender incorrectly handled certain responses from an X server, resulting in a heap buffer overflow. If a user were tricked into connecting to a malicious X server, an attacker could possibly use this issue to cause applications using libXrender to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-88807) Tobias Stoeckmann discovered that l
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9194-1
+
+---
+
+#### 3957. [Ubuntu] USN-9193-1: PCRE vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Yunho Kim discovered that PCRE incorrectly handled memory when processing certain regular expressions with JIT compilation enabled. An attacker could possibly use this issue to cause applications using PCRE to expose sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9193-1
 
 ---
