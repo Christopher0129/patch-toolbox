@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4303**
+**总计条目 / Total entries: 4308**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -61100,5 +61100,65 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9190-2
+
+---
+
+#### 4304. [Ubuntu] USN-9214-1: GNU binutils vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the GNU binutils gold linker incorrectly handled certain ELF files. A local attacker could possibly use this issue to cause GNU binutils to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS. (CVE-2019-1010204) Han Zheng discovered that GNU binutils incorrectly handled demangling certain Rust symbols. A local attacker could possibly use this i
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9214-1
+
+---
+
+#### 4305. [Ubuntu] USN-9213-1: libXi vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Adam Bedard discovered that libXi did not properly validate DEVICE_RESOLUTION replies from the X server, which could result in a heap buffer overflow. A remote attacker could possibly use this issue to cause applications using libXi to crash, resulting in a denial of service. (CVE-2026-109089) Adam Bedard discovered that libXi did not properly allocate memory when handling DEVICE_ENABLE replies fr
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9213-1
+
+---
+
+#### 4306. [Ubuntu] USN-9212-1: PyJWT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PyJWT incorrectly handled errors when parsing deeply nested token headers. An attacker could possibly use this issue to cause applications using PyJWT to fail unexpectedly, resulting in a denial of service. (CVE-2026-102265) It was discovered that PyJWT modified the options mapping supplied by an application when signature verification was disabled. If an application reused
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9212-1
+
+---
+
+#### 4307. [Ubuntu] USN-9206-1: Guava vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Guava did not correctly handle permissions for certain temporary directories. An attacker could possibly use this issue to read or modify sensitive information. This issue only affected Ubuntu 22.04 LTS. (CVE-2020-8908, CVE-2023-2976) Kaya Emre Arikan discovered that Guava did not correctly handle deserializing certain data. If a user or automated system were tricked into op
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9206-1
+
+---
+
+#### 4308. [Ubuntu] USN-9205-1: LibTIFF vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ariel Schön discovered that LibTIFF did not correctly handle parsing certain PixarLog-compressed images. If a user or automated system were tricked into opening a specially crafted file, an attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-12912) Quang Luong discovered that LibTIFF did not correctly handle parsing certain TIFF files. If a user
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9205-1
 
 ---
